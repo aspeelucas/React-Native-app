@@ -1,5 +1,5 @@
-import React,{ Component } from 'react';
-import List from '../screens/Lists/List'
+import React from 'react';
+import  List  from '../screens/Lists/List';
 import ListDetail from '../screens/Lists/listDetail'
 
 import { createStackNavigator } from '@react-navigation/stack';

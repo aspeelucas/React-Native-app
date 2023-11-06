@@ -4,8 +4,6 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
-  Modal,
-  SafeAreaView,
   Pressable,
 } from 'react-native';
 import {Icon} from '@rneui/themed';
