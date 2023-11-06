@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import Header from '../../components/Header';
 import {Icon} from '@rneui/themed';
+
 import {getPokemon} from '../../api';
 import {useEffect, useState} from 'react';
 
