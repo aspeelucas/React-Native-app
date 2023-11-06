@@ -1,9 +1,7 @@
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import React from 'react';
 import Profile from '../screens/Profile/Profile';
-import Home from '../screens/Home';
 import AppStack from '../routes/index';
-import DrawerMenu from './DrawerMenu';
 import List from '../screens/Lists/List';
 import Maps from '../screens/Map/Maps';
 import ListDetail from '../screens/Lists/listDetail';
@@ -22,19 +20,6 @@ export default function MyDrawer() {
       <Drawer.Screen name="ListDetail" component={ListDetail} options={{ headerShown: false }}/>
     </Drawer.Navigator>
 
-
-
-    // <Drawer.Navigator
-    //   initialRouteName="StackScreens"
-    //   screenOptions={{
-    //     headerShown: false,
-    //   }}
-    //   drawerContent={DrawerMenu}>
-    //   <Drawer.Screen
-    //     name="StackScreens"
-    //     component={AppStack}
-    //   />
-    // </Drawer.Navigator>
   );
 }
 

@@ -6,7 +6,6 @@ import {
   Text,
   Dimensions,
   TouchableOpacity,
-  useColorScheme,
   View,
   Alert,
   ImageBackground
