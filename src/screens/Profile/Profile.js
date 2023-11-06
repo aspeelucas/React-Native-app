@@ -9,9 +9,8 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Header from '../../components/Header';
-import Tabs from '../../routes/Tabs';
 import {Icon} from '@rneui/themed';
-import { white } from 'react-native-paper/lib/typescript/styles/themes/v2/colors';
+
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
