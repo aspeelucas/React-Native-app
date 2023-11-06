@@ -21,10 +21,13 @@ const windowHeight = Dimensions.get('window').height;
 const ListDetails = props => {
   const [pokemon, setPokemon] = useState();
   useEffect(() => {
+    if (!props?.route?.params?.url) {
+      return;
+    }
     getPokemon(props.route.params.url).then(data => {
       setPokemon(data);
     });
-  }, [props.route.params.url]);
+  }, [props?.route?.params?.url]);
   const backgroundimg = {
     uri: 'https://img.freepik.com/vector-gratis/fondo-abstracto-negro-azul_1340-17010.jpg',
   };

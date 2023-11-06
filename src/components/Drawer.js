@@ -17,7 +17,6 @@ export default function MyDrawer() {
       <Drawer.Screen name="Profile" component={Profile}  options={{ headerShown: false }}/>
       <Drawer.Screen name="List" component={List} options={{ headerShown: false }}/>
       <Drawer.Screen name="Maps" component={Maps} options={{ headerShown: false }}/>
-      <Drawer.Screen name="ListDetail" component={ListDetails} options={{ headerShown: false }}/>
     </Drawer.Navigator>
 
   );
