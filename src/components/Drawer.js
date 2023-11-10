@@ -4,7 +4,7 @@ import Profile from '../screens/Profile/Profile';
 import AppStack from '../routes/index';
 import List from '../screens/Lists/List';
 import Maps from '../screens/Map/Maps';
-import ListDetails from '../screens/Lists/listDetail';
+
 
 const Drawer = createDrawerNavigator();
 
